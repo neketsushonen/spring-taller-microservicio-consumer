@@ -19,8 +19,9 @@ public class App_tutorial_15
 	
     public static void main( String[] args )
     {
-    	//https://www.jianshu.com/p/d32ae141f680
     	SpringApplication.run(App_tutorial_15.class, args);
+     	//Abrir el browser e introduzca el siguiente link: http://localhost:8080
+
     }
     
    

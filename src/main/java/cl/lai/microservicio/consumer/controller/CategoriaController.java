@@ -21,6 +21,6 @@ public class CategoriaController {
 
 	@RequestMapping(value = "/categoria", method = RequestMethod.GET)
 	public String hello() {
-		return restTemplate.getForEntity("http://SERVICE-CATEGORIA/categoria/list.htm", String.class).getBody();
+		return restTemplate.getForEntity("http://SERVICE-CATEGORIA-BANCO/categoria/list.htm", String.class).getBody();
 	}
 }
