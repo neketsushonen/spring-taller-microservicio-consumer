@@ -26,6 +26,7 @@ public class CategoriaController {
 
 	@RequestMapping(value = "/categoria", method = RequestMethod.GET)
 	public String getCategoria() {
-		return restTemplate.getForEntity("http://SERVICE-CATEGORIA-BANCO/categoria", String.class).getBody();
+		System.out.println("Consultando el siguiente link: http://localhost:2100/categoria");
+		return restTemplate.getForEntity("http://localhost:2100/categoria", String.class).getBody();
 	}
 }
